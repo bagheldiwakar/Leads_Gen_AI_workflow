@@ -1,0 +1,43 @@
+X-SECURITY MASTER TRACKER - QUICK COLUMN GUIDE
+================================================
+
+One row = one target company. This CSV is the shared memory for every agent.
+
+Target: Name of the company/account.
+Route: Sales route: Partner, Direct, or Demo.
+HQ Country: Company headquarters country.
+Target Type: Final AI classification, such as MSSP, MSP, systems integrator, direct customer, or Needs human review.
+Priority: Lead importance: Tier 1 is highest priority.
+Primary Contact: Main person to contact, once verified.
+Primary Role: Job title of the main decision maker, usually CTO or CISO.
+Secondary Contact: Backup person to contact.
+Secondary Role: Job title of the backup decision maker.
+Primary Channel: Best place to reach the target, such as LinkedIn or email.
+Message Angle: Main problem/value point used in the outreach message.
+Stage: Current pipeline step, such as Research ready or Contacted.
+Last Activity: Most recent activity for this account.
+Next Activity: Planned next activity for this account.
+Next Action: Clear next task for a human or agent.
+Outcome: Result so far, such as No response or Positive reply.
+Company Website: Official company website found by the Sourcing Agent.
+Evidence Link: Main public page used to support the research.
+account_snapshot: Short company description.
+decision_maker_map: Roles involved in the buying decision.
+buying_hypothesis: Why this company may need X-Security.
+outreach_plan: Recommended approach for this company.
+channels: Available or recommended contact channels.
+sources: Public sources used for research.
+research_quality_note: What is verified and what still needs checking.
+full_research_brief: Full research context used by the Message Agent.
+message_status: Current messaging state, such as Draft ready or Sent.
+next_action: Backend automation version of the next action.
+last_update: Date of the latest system update.
+latest_reply: Latest reply captured from the customer.
+reply_summary: Short meaning of the customer reply.
+message_strategy: Strategy chosen by the Learning Agent or human.
+
+AGENT FLOW
+Sourcing Agent creates the row with company name and website → Deep Research fills all available research fields and marks missing public data “Needs verification” → Message Agent drafts/sends → Reply Agent saves reply → Learning Agent improves strategy.
+
+INTERVIEW LINE
+“The Master Tracker is the single source of truth: every agent reads and updates the same company row.”

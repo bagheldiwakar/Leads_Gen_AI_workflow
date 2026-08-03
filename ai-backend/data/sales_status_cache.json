@@ -1,0 +1,46 @@
+{
+  "Northstar SecureOps": {
+    "signature": "bdd2624b2a807f94398eba6b6119c3ea80c39c466bef85afe12783de3b5c9c78",
+    "result": {
+      "Lead Temperature": "Discovery Ready",
+      "Status Summary": "Prospect proposed a meeting time.",
+      "Follow-up Timing": "Meeting scheduled",
+      "Sales Agent Decision": "Prospect set meeting date",
+      "Sales Agent Model": "openai/gpt-oss-120b",
+      "Meeting Time": "2026-08-03T18:00:00+05:30"
+    }
+  },
+  "Xobee Networks": {
+    "signature": "8092cba7b8f55d612ba90eb0b427b161ac4eb7363bd0f0540cfb16b4dd89a12e",
+    "result": {
+      "Lead Temperature": "New Prospect",
+      "Status Summary": "Research ready, no contact",
+      "Follow-up Timing": "Run Deep Research Agent",
+      "Sales Agent Decision": "No reply yet",
+      "Sales Agent Model": "openai/gpt-oss-120b",
+      "Meeting Time": ""
+    }
+  },
+  "LevelBlue": {
+    "signature": "9d6ea9ca251dd877d5bb13c3e5561d5f80f0ef110933808de8347534c8b8a94c",
+    "result": {
+      "Lead Temperature": "New Prospect",
+      "Status Summary": "Research ready, no contact yet",
+      "Follow-up Timing": "Run Deep Research Agent",
+      "Sales Agent Decision": "Contact not verified",
+      "Sales Agent Model": "openai/gpt-oss-120b",
+      "Meeting Time": ""
+    }
+  },
+  "ArmorPoint, LLC": {
+    "signature": "83ec70881954c321ac0090f852e5cd8b288761d756c472d6e9af3c5a14827910",
+    "result": {
+      "Lead Temperature": "New Prospect",
+      "Status Summary": "Research pending, no outreach",
+      "Follow-up Timing": "Run Deep Research Agent",
+      "Sales Agent Decision": "Awaiting contact verification",
+      "Sales Agent Model": "openai/gpt-oss-120b",
+      "Meeting Time": ""
+    }
+  }
+}

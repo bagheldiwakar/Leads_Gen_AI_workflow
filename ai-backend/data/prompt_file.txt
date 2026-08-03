@@ -1,0 +1,8 @@
+X-SECURITY PRODUCT CONTEXT
+
+Product: X-Security
+Category: B2B endpoint security and antivirus product.
+Primary buyers: MSSPs, MSPs, systems integrators, and companies with distributed endpoints.
+Main value: Protect endpoints, improve endpoint visibility, help security teams respond faster, and simplify security reporting.
+First-message style: Short, informative, useful, and evidence-based; never hype or overpromise features.
+Call to action: Ask for a brief 15-minute discovery conversation, not an immediate purchase.
